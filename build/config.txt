@@ -1,0 +1,65 @@
+[Sim]
+Mass = 0.008
+ParticleSpacing = 0.02
+
+[Surface]
+SmoothingRadiusRatio = 4	 
+LambdaForSmoothed = 0.0      
+IsoValue = 0.5      
+
+IsolateNumNeighbors = 8;
+MinNumNeighbors = 25       
+
+[Diffuse]
+SmoothingRadiusRatioForDiffuse = 2   
+
+MinKineticEnergyThreshold = 0.04.
+MaxKineticEnergyThreshold = 0.4.
+
+MinTrappedAirThreshold = 5.
+MaxTrappedAirThreshold = 20.
+
+MinWaveCrestsThreshold = 2.
+MaxWaveCrestsThreshold = 8.
+
+TimeStep = 0.01
+
+DiffuseTrappedAirMultiplier = 1000
+DiffuseWaveCrestsMultiplier = 1000
+
+BuoyancyControl = 0.8
+DragControl = 0.5
+
+LifefimeMultiplier = 20
+[Domain]
+SpatialGridSizeScale = 2
+SclarGridSizeScale = 2
+Min_x = -1
+Min_y = -1
+Min_z = -1
+Max_x = 7
+Max_y = 4
+Max_z = 2
+
+[Config]
+GpuId = 0
+Framefrom = 1
+Frameto = 200
+FrameStep = 1
+
+IsDiffuseGeneration = true
+IsSurfaceReconstruct = true
+
+FluidPath = /home/chen/Downloads/mps/
+FluidPrefix = PartFluid_
+
+BoundPrefix = CaseSolids_
+BoundPath = /home/chen/Documents/DualSPHysics_v5.0/examples/main/24_Lshape/CaseSolids_out/
+
+SurfacePath = /home/chen/Documents/DualSPHysics_v5.0/examples/main/24_Lshape/CaseSolids_out/oursurface/
+SurfacePrefix = PartSurface_
+
+DiffusePath = /home/chen/Documents/DualSPHysics_v5.0/examples/main/24_Lshape/CaseSolids_out/foam/
+DiffusePrefix = PartDiffuse_
+
+

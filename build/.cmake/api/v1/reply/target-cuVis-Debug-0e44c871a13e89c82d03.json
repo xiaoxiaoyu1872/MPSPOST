@@ -1,0 +1,352 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/libcuVis.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"cuda_add_library",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"/usr/local/share/cmake-3.19/Modules/FindCUDA.cmake",
+			"src/CMakeLists.txt",
+			"/usr/local/lib/cmake/vtk-8.2/UseVTK.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1842,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 24,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-I/usr/local/cuda-9.0/samples/common/inc -I/usr/local/cuda-9.0/include -I/usr/local/cuda-9.0/samples/common/inc -I/usr/local/cuda-9.0/include  -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/usr/local/include/vtk-8.2"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -Ofast -fopenmp-simd  -g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/usr/local/cuda-9.0/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/local/cuda/samples/common/inc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/local/include/vtk-8.2"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				19,
+				20
+			]
+		}
+	],
+	"id" : "cuVis::@145eef247bfb46b6828c",
+	"name" : "cuVis",
+	"nameOnDisk" : "libcuVis.a",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_DiffuseGeneration.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_DiffuseGeneration_kernel.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_MarchingCube.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_MarchingCube_kernel.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_MethodOfYu.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_MethodOfYu_kernel.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_NeighborSearch.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_NeighborSearch_kernel.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/src/CMakeFiles/cuVis.dir/cuda/cuVis_generated_SurfaceReconstruction.cu.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/DiffuseGeneration.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/DiffuseGeneration_kernel.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/MarchingCube.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/MarchingCube_kernel.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/MethodOfYu.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/MethodOfYu_kernel.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/NeighborSearch.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/NeighborSearch_kernel.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/cuda/SurfaceReconstruction.cu",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/inc/inireader/ini.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/inc/inireader/INIReader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/inc/tinyply/tinyply.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

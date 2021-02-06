@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/cc  -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -I/usr/local/cuda-9.0/samples/common/inc -I/usr/local/cuda-9.0/include -I/usr/local/cuda-9.0/samples/common/inc -I/usr/local/cuda-9.0/include  -g -o CMakeFiles/cuVis.dir/inc/inireader/ini.c.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/inireader/ini.c",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/inireader/ini.c"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/cuVis.dir/inc/inireader/INIReader.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/inireader/INIReader.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/inireader/INIReader.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/cuVis.dir/inc/tinyply/tinyply.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/tinyply/tinyply.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/tinyply/tinyply.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/inc/marchingcube/MarchingCubesHelper.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MarchingCubesHelper.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MarchingCubesHelper.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/inc/marchingcube/MathVector.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MathVector.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MathVector.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/FileData.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/FileData.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/FileData.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/GPUPOST.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUPOST.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUPOST.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/GPUmemory.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUmemory.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUmemory.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/Main.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/Main.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/Main.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/usr/local/include/vtk-8.2 -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/Vis.dir/Params.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/Params.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/Params.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/inc/marchingcube/MarchingCubesHelper.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MarchingCubesHelper.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MarchingCubesHelper.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/inc/marchingcube/MathVector.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MathVector.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/inc/marchingcube/MathVector.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/FileData.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/FileData.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/FileData.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/GPUPOST.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUPOST.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUPOST.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/GPUmemory.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUmemory.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/GPUmemory.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/Main.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/Main.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/Main.cpp"
+},
+{
+  "directory": "/home/chen/Documents/GPUMPS/src/GPUPOST/build/src",
+  "command": "/usr/bin/c++  -I/usr/local/cuda-9.0/include -I/usr/local/cuda/samples/common/inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/marchingcube -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./cuda -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/inireader -I/home/chen/Documents/GPUMPS/src/GPUPOST/src/./inc/tinyply -isystem /usr/local/include/vtk-8.2   -Ofast -fopenmp-simd  -g -std=gnu++14 -o CMakeFiles/VisGPU.dir/Params.cpp.o -c /home/chen/Documents/GPUMPS/src/GPUPOST/src/Params.cpp",
+  "file": "/home/chen/Documents/GPUMPS/src/GPUPOST/src/Params.cpp"
+}
+]
