@@ -1,2 +1,0 @@
-/usr/bin/ar qc libVis.a CMakeFiles/Vis.dir/inc/marchingcube/MarchingCubesHelper.cpp.o CMakeFiles/Vis.dir/inc/marchingcube/MathVector.cpp.o CMakeFiles/Vis.dir/FileData.cpp.o CMakeFiles/Vis.dir/GPUPOST.cpp.o CMakeFiles/Vis.dir/GPUmemory.cpp.o CMakeFiles/Vis.dir/Main.cpp.o CMakeFiles/Vis.dir/Params.cpp.o
-/usr/bin/ranlib libVis.a
